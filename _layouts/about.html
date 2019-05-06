@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<header role="header">
+  {% include navbar.html %}
+  <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-white"
+    style="background-image: url(assets/promo/img5.jpg);">
+    <!-- Promo Content -->
+    <div class="container u-overlay__inner u-ver-center u-content-space">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="text-center">
+            <h1 class="display-sm-4 display-lg-3">FUNABARA Masao</h1>
+            <p class="h6 text-uppercase u-letter-spacing-sm mb-2">Software Engineer</p>
+
+            <ul class="list-inline text-center mb-0">
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Twitter">
+                <a class="text-white" target="_blank" href="https://twitter.com/107steps">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Facebook">
+                <a class="text-white" target="_blank" href="https://www.facebook.com/masao.funabara">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
+                <a class="text-white" target="_blank" href="https://www.instagram.com/107steps/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                <a class="text-white" target="_blank" href="https://www.linkedin.com/in/masoo/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Promo Content -->
+  </section>
+</header>
+<main role="main">
+  {{ content }}
+</main>
+{% include footer.html %}
