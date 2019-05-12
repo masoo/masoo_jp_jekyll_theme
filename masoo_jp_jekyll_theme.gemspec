@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "masoo_jp_jekyll_theme"
-  spec.version       = "0.4.0"
+  spec.version       = "0.5.0"
   spec.authors       = ["FUNABARA Masao"]
   spec.email         = ["masao@masoo.jp"]
 
