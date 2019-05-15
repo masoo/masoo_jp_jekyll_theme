@@ -1,8 +1,6 @@
 ---
-layout: page
-bg-image: assets/promo/img6.jpg
-title: 令和
-subtitle: れいわ
+layout: default
+title: テスト
 ---
 
 # h1 Heading 8-)
